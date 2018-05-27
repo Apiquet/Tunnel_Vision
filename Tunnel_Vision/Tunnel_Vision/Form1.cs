@@ -18,27 +18,29 @@ namespace Tunnel_Vision
             InitializeComponent();
         }
 
+        //set ellipse dimension
         private int _dimension = 100;
 
+        //adding key events
         protected override void OnKeyDown(KeyEventArgs e)
         {
             base.OnKeyDown(e);
             switch (e.KeyCode)
             {
-                case Keys.Up:
+                //dimension manager
+                case Keys.Add:
                     _dimension++;
                     break;
-                case Keys.Down:
+                case Keys.Subtract:
                     _dimension--;
                     break;
-                case Keys.Left:
+                
+                //Opacity manager
+                case Keys.L:
                     Opacity -= 0.05;
                     break;
-                case Keys.Right:
+                case Keys.H:
                     Opacity += 0.05;
-                    break;
-                case Keys.Escape:
-                    Application.Exit();
                     break;
                 case Keys.Space:
                     Opacity = 1;
@@ -46,8 +48,15 @@ namespace Tunnel_Vision
                 case Keys.Delete:
                     Opacity = 0;
                     break;
+
+                //exit app
+                case Keys.Escape:
+                    Application.Exit();
+                    break;
             }
         }
+
+        //change position of the ellipse on timer event
         private void timer1_Tick(object sender, EventArgs e)
         {
             using (var gp = new GraphicsPath())
