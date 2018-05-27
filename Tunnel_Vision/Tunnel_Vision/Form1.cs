@@ -37,6 +37,12 @@ namespace Tunnel_Vision
                 case Keys.Right:
                     Opacity += 0.05;
                     break;
+                case Keys.Escape:
+                    Opacity = 0;
+                    break;
+                case Keys.Space:
+                    Opacity = 1;
+                    break;
             }
         }
         private void timer1_Tick(object sender, EventArgs e)
