@@ -38,10 +38,13 @@ namespace Tunnel_Vision
                     Opacity += 0.05;
                     break;
                 case Keys.Escape:
-                    Opacity = 0;
+                    Application.Exit();
                     break;
                 case Keys.Space:
                     Opacity = 1;
+                    break;
+                case Keys.Delete:
+                    Opacity = 0;
                     break;
             }
         }
