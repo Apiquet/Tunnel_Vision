@@ -17,6 +17,27 @@ namespace Tunnel_Vision
             InitializeComponent();
         }
 
+        private int _dimension = 100;
+
+        protected override void OnKeyDown(KeyEventArgs e)
+        {
+            base.OnKeyDown(e);
+            switch (e.KeyCode)
+            {
+                case Keys.Up:
+                    _dimension++;
+                    break;
+                case Keys.Down:
+                    _dimension--;
+                    break;
+                case Keys.Left:
+                    Opacity -= 0.05;
+                    break;
+                case Keys.Right:
+                    Opacity += 0.05;
+                    break;
+            }
+        }
         private void timer1_Tick(object sender, EventArgs e)
         {
 
