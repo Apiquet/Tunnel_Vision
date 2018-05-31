@@ -1,7 +1,6 @@
 C:\Users\anthony.piquet\Documents\GitHub\Tunnel_Vision\Tunnel_Vision\Tunnel_Vision\bin\Debug\Tunnel_Vision.exe.config
 C:\Users\anthony.piquet\Documents\GitHub\Tunnel_Vision\Tunnel_Vision\Tunnel_Vision\bin\Debug\Tunnel_Vision.exe
 C:\Users\anthony.piquet\Documents\GitHub\Tunnel_Vision\Tunnel_Vision\Tunnel_Vision\bin\Debug\Tunnel_Vision.pdb
-C:\Users\anthony.piquet\Documents\GitHub\Tunnel_Vision\Tunnel_Vision\Tunnel_Vision\obj\Debug\Tunnel_Vision.csprojAssemblyReference.cache
 C:\Users\anthony.piquet\Documents\GitHub\Tunnel_Vision\Tunnel_Vision\Tunnel_Vision\obj\Debug\Tunnel_Vision.Form1.resources
 C:\Users\anthony.piquet\Documents\GitHub\Tunnel_Vision\Tunnel_Vision\Tunnel_Vision\obj\Debug\Tunnel_Vision.Properties.Resources.resources
 C:\Users\anthony.piquet\Documents\GitHub\Tunnel_Vision\Tunnel_Vision\Tunnel_Vision\obj\Debug\Tunnel_Vision.csproj.GenerateResource.cache
